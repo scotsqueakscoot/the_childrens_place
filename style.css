@@ -145,8 +145,14 @@ body {
 }
 
 .informationBox h1 {
-	padding-top:25px;
+	margin:0;
+	padding-top:50px;
 	padding-left:15px;
+}
+
+.informationBox-pHolder {
+	overflow-y:scroll;
+	max-height:280px;
 }
 
 .informationBox p {
